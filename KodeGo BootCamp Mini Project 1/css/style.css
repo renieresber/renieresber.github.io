@@ -30,28 +30,39 @@
 
 .navbar {
     text-align: center;
-    flex: 1;
+    flex: 0.5;
 }
 
 .navbar {
     padding: 6px 20px;
-    text-decoration: none;
-    color: white;
+    /* text-decoration: none; */
+    color: rgb(67, 98, 70)!;
     margin-left: 20px;
     font-size: 20px;
     font-weight: bold;
 }
 
+.navbar {
+    color: green !important;
+}
+
+
 .btn {
     cursor: pointer;
-    color: #c9debf;
+    color: #566953;
     font-size: 18px;
     letter-spacing: 2px;
     padding: 10px 30px;
     border: 2px solid #dadebf;
+    background: transparent;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    margin: 40px 8px;
+    
 }
 
-h1 {
-    color: azure;
-    font: bold;
+#bigtxt {
+    color: rgb(56, 94, 47);
+    font-weight: bolder;
 }
