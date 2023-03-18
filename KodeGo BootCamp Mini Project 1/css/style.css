@@ -6,9 +6,52 @@
 .container {
     width: 100%;
     height: 100vh;
-    background-image: url(1.jpg);
+    background-image: url(../images/1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
 }
 
-.content {
-    text-decoration-color: aliceblue;
+.header {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 200px;
+    cursor: pointer;
+}
+
+.navbar {
+    text-align: center;
+    flex: 1;
+}
+
+.navbar {
+    padding: 6px 20px;
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn {
+    cursor: pointer;
+    color: #c9debf;
+    font-size: 18px;
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    border: 2px solid #dadebf;
+}
+
+h1 {
+    color: azure;
+    font: bold;
 }
