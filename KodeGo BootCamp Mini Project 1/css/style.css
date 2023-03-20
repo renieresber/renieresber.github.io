@@ -42,9 +42,7 @@
     font-weight: bold;
 }
 
-.navbar {
-    color: green !important;
-}
+
 
 
 .btn {
@@ -62,7 +60,54 @@
     
 }
 
+
 #bigtxt {
     color: rgb(56, 94, 47);
     font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar {
+    color: green !important;
+}
+
+.history {
+    color: rgb(22, 24, 21);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    word-spacing: normal;
+    padding: 30px 30px;
+    border: 2px solid #dadebf;
+}
+
+
+
+/* Contact button */
+.contact {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/s3.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    padding: 20% 20%;
+    vertical-align: middle;
+
+
+}
+
+.hotline
+
+
+
+
+
+
+
+/* Explore Sceneries Button */
+.gallery {
+    display: inline-block;
+    align-items: center;
+}
+    
