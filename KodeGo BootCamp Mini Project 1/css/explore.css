@@ -1,79 +1,121 @@
-body {
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    justify-self: center;
+    align-items: center;
+    background: #AADFEA;
+}
+
+.section{
     margin: 0;
     padding: 0;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #AEEBF7;
 }
 
-.gallery{
+.slider{
     width: 800px;
     height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
 
-.slides{
+.slide{
     width: 500%;
     height: 500px;
     display: flex;
 }
 
-.slides input{
+.slide input{
     display: none;
 }
 
-.slide{
+.st{
     width: 20%;
     transition: 2s;
 }
 
-.slide img{
+.st img{
     width: 800px;
     height: 500px;
 }
 
-/* for manual navigation */
-
-.nav-manual{
+.nav-m{
     position: absolute;
     width: 800px;
-    margin-top: -40px;
-    display: flex;
+    margin-top: 40px;
     justify-content: center;
+    display: flex;
 }
 
-.manual-btn {
-    border: 2px #AEEBF7;
+.m-btn{
+    border: 2px solid #AADFEA;
     padding: 5px;
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
-
 }
 
-.manual-btn:not(:last-child){
-    margin-right: 40px;
+.m-btn:not(:last-child){
+    margin-right: 30px;
 }
 
-.manual-btn:hover{
-    background: solid gray;
+.m-btn:hover{
+    background-color: black;
 }
 
-#radio1:checked ~ .first{
+#radio1:checked ~.first{
     margin-left: 0;
 }
 
-#radio2:checked ~ .first{
+#radio2:checked ~.first{
     margin-left: -20%;
 }
 
-#radio3:checked ~ .first{
+#radio3:checked ~.first{
     margin-left: -40%;
 }
 
-#radio4:checked ~ .first{
+#radio4:checked ~.first{
     margin-left: -60%;
+}
+
+.nav-auto{
+    position: absolute;
+    width: 800px;
+    margin-top: 460px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-auto div{
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-auto div:not(:last-child){
+    margin-right: 30px;
+    justify-content: center;
+
+}
+
+#radio1:checked ~ .nav-auto .a-b1{
+    background-color: aqua;
+}
+
+#radio2:checked ~ .nav-auto .a-b2{
+    background-color: aqua;
+}
+
+#radio3:checked ~ .nav-auto .a-b3{
+    background-color: aqua;
+}
+
+#radio4:checked ~ .nav-auto .a-b4{
+    background-color: aqua;
 }
