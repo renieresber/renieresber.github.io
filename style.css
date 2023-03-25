@@ -98,7 +98,11 @@ h2{
 
 a:link {
   font-weight: bold;
-  color: solid gray;
+  color: solid rgb(101, 101, 101);
+}
+a:active {
+  font-weight: bold;
+  color: solid gray !important;
 }
 
 a:hover{
